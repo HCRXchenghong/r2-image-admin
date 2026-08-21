@@ -1,0 +1,24 @@
+.DS_Store
+*.log
+
+# Local secrets and runtime data
+.env
+.env.*
+!.env.example
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Build artifacts and tool caches
+bin/
+dist/
+coverage/
+backend/.gocache/
+backend/.gopath/
+backend/bin/
+backend/data/
+backend/web/dist/*
+!backend/web/dist/.gitkeep
+frontend/dist/
+frontend/node_modules/
